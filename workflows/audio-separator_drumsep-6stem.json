@@ -1,8 +1,8 @@
 {
   "id": "826572a0-173e-4b9c-9274-eccb376285fe",
   "revision": 0,
-  "last_node_id": 46,
-  "last_link_id": 72,
+  "last_node_id": 47,
+  "last_link_id": 81,
   "nodes": [
     {
       "id": 27,
@@ -22,7 +22,7 @@
         {
           "name": "source",
           "type": "*",
-          "link": 65
+          "link": 74
         }
       ],
       "outputs": [
@@ -57,7 +57,7 @@
         {
           "name": "source",
           "type": "*",
-          "link": 64
+          "link": 73
         }
       ],
       "outputs": [
@@ -92,7 +92,7 @@
         {
           "name": "source",
           "type": "*",
-          "link": 66
+          "link": 75
         }
       ],
       "outputs": [
@@ -127,7 +127,7 @@
         {
           "name": "source",
           "type": "*",
-          "link": 67
+          "link": 76
         }
       ],
       "outputs": [
@@ -162,7 +162,7 @@
         {
           "name": "source",
           "type": "*",
-          "link": 68
+          "link": 77
         }
       ],
       "outputs": [
@@ -197,7 +197,7 @@
         {
           "name": "source",
           "type": "*",
-          "link": 69
+          "link": 78
         }
       ],
       "outputs": [
@@ -232,7 +232,7 @@
         {
           "name": "source",
           "type": "*",
-          "link": 70
+          "link": 79
         }
       ],
       "outputs": [
@@ -267,7 +267,7 @@
         {
           "name": "source",
           "type": "*",
-          "link": 71
+          "link": 80
         }
       ],
       "outputs": [
@@ -302,7 +302,7 @@
         {
           "name": "source",
           "type": "*",
-          "link": 72
+          "link": 81
         }
       ],
       "outputs": [
@@ -320,113 +320,6 @@
       "widgets_values_named": {}
     },
     {
-      "id": 45,
-      "type": "AudioSeparation",
-      "pos": [
-        313.1250889786301,
-        165.8149551290109
-      ],
-      "size": [
-        383.0625,
-        625
-      ],
-      "flags": {},
-      "order": 0,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STDOUT",
-          "type": "STRING",
-          "links": [
-            64
-          ]
-        },
-        {
-          "name": "output_stempath_1",
-          "type": "STRING",
-          "links": [
-            65
-          ]
-        },
-        {
-          "name": "output_stempath_2",
-          "type": "STRING",
-          "links": [
-            66
-          ]
-        },
-        {
-          "name": "output_stempath_3",
-          "type": "STRING",
-          "links": [
-            67
-          ]
-        },
-        {
-          "name": "output_stempath_4",
-          "type": "STRING",
-          "links": [
-            68
-          ]
-        },
-        {
-          "name": "output_stempath_5",
-          "type": "STRING",
-          "links": [
-            69
-          ]
-        },
-        {
-          "name": "output_stempath_6",
-          "type": "STRING",
-          "links": [
-            70
-          ]
-        },
-        {
-          "name": "output_stempath_7",
-          "type": "STRING",
-          "links": [
-            71
-          ]
-        },
-        {
-          "name": "output_stempath_8",
-          "type": "STRING",
-          "links": [
-            72
-          ]
-        }
-      ],
-      "title": "Audio Separator CLI (Drumsep 6 Stem)",
-      "properties": {
-        "Node name for S&R": "AudioSeparation"
-      },
-      "widgets_values": [
-        "/tmp/example.wav",
-        "/tmp/",
-        "MDX23C-DrumSep-aufr33-jarredou.ckpt",
-        "",
-        "",
-        "",
-        null,
-        "",
-        null
-      ],
-      "widgets_values_named": {
-        "input_files": "/tmp/example.wav",
-        "output_dir": "/tmp/",
-        "model_filename": "MDX23C-DrumSep-aufr33-jarredou.ckpt",
-        "command_options": "",
-        "Show Command Help": "",
-        "List Loaded Models": "",
-        "List Model Stems": null,
-        "Remove Models": "",
-        "STOP PROCESS": null
-      }
-    },
-    {
       "id": 46,
       "type": "MarkdownNote",
       "pos": [
@@ -438,7 +331,7 @@
         155.3125
       ],
       "flags": {},
-      "order": 1,
+      "order": 0,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -452,76 +345,183 @@
       },
       "color": "#322",
       "bgcolor": "#533"
+    },
+    {
+      "id": 47,
+      "type": "AudioSeparation",
+      "pos": [
+        320.3772253535209,
+        165.1246999123411
+      ],
+      "size": [
+        376.0625,
+        625
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STDOUT",
+          "type": "STRING",
+          "links": [
+            73
+          ]
+        },
+        {
+          "name": "output_stempath_1",
+          "type": "STRING",
+          "links": [
+            74
+          ]
+        },
+        {
+          "name": "output_stempath_2",
+          "type": "STRING",
+          "links": [
+            75
+          ]
+        },
+        {
+          "name": "output_stempath_3",
+          "type": "STRING",
+          "links": [
+            76
+          ]
+        },
+        {
+          "name": "output_stempath_4",
+          "type": "STRING",
+          "links": [
+            77
+          ]
+        },
+        {
+          "name": "output_stempath_5",
+          "type": "STRING",
+          "links": [
+            78
+          ]
+        },
+        {
+          "name": "output_stempath_6",
+          "type": "STRING",
+          "links": [
+            79
+          ]
+        },
+        {
+          "name": "output_stempath_7",
+          "type": "STRING",
+          "links": [
+            80
+          ]
+        },
+        {
+          "name": "output_stempath_8",
+          "type": "STRING",
+          "links": [
+            81
+          ]
+        }
+      ],
+      "title": "Audio Separator CLI (Drumsetp 6 Stem)",
+      "properties": {
+        "Node name for S&R": "AudioSeparation"
+      },
+      "widgets_values": [
+        "/tmp/example.wav",
+        "/tmp/",
+        "MDX23C-DrumSep-aufr33-jarredou.ckpt",
+        "",
+        "",
+        "",
+        null,
+        "",
+        ""
+      ],
+      "widgets_values_named": {
+        "input_files": "/tmp/example.wav",
+        "output_dir": "/tmp/",
+        "model_filename": "MDX23C-DrumSep-aufr33-jarredou.ckpt",
+        "command_options": "",
+        "Show Command Help": "",
+        "List Loaded Models": "",
+        "List Model Stems": null,
+        "Remove Models": "",
+        "STOP PROCESS": ""
+      }
     }
   ],
   "links": [
     [
-      64,
-      45,
+      73,
+      47,
       0,
       28,
       0,
       "STRING"
     ],
     [
-      65,
-      45,
+      74,
+      47,
       1,
       27,
       0,
       "STRING"
     ],
     [
-      66,
-      45,
+      75,
+      47,
       2,
       29,
       0,
       "STRING"
     ],
     [
-      67,
-      45,
+      76,
+      47,
       3,
       30,
       0,
       "STRING"
     ],
     [
-      68,
-      45,
+      77,
+      47,
       4,
       33,
       0,
       "STRING"
     ],
     [
-      69,
-      45,
+      78,
+      47,
       5,
       34,
       0,
       "STRING"
     ],
     [
-      70,
-      45,
+      79,
+      47,
       6,
       35,
       0,
       "STRING"
     ],
     [
-      71,
-      45,
+      80,
+      47,
       7,
       36,
       0,
       "STRING"
     ],
     [
-      72,
-      45,
+      81,
+      47,
       8,
       37,
       0,
@@ -547,8 +547,8 @@
     "ds": {
       "scale": 0.8264462809917354,
       "offset": [
-        -89.26722535352083,
-        61.145300087658896
+        11.162774646479221,
+        53.88530008765889
       ]
     },
     "frontendVersion": "1.51.9"
