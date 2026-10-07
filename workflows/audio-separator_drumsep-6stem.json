@@ -1,0 +1,557 @@
+{
+  "id": "826572a0-173e-4b9c-9274-eccb376285fe",
+  "revision": 0,
+  "last_node_id": 46,
+  "last_link_id": 72,
+  "nodes": [
+    {
+      "id": 27,
+      "type": "PreviewAny",
+      "pos": [
+        760,
+        160
+      ],
+      "size": [
+        225,
+        180
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 65
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": "Stem 1 Filepath",
+      "properties": {
+        "Node name for S&R": "PreviewAny"
+      },
+      "widgets_values": [],
+      "widgets_values_named": {}
+    },
+    {
+      "id": 28,
+      "type": "PreviewAny",
+      "pos": [
+        1305.5539320461467,
+        162.56237647134006
+      ],
+      "size": [
+        513.0625,
+        849.75
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 64
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": "Audio Separator CLI STDOUT",
+      "properties": {
+        "Node name for S&R": "PreviewAny"
+      },
+      "widgets_values": [],
+      "widgets_values_named": {}
+    },
+    {
+      "id": 29,
+      "type": "PreviewAny",
+      "pos": [
+        760,
+        380
+      ],
+      "size": [
+        225,
+        180
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 66
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": "Stem 2 Filepath",
+      "properties": {
+        "Node name for S&R": "PreviewAny"
+      },
+      "widgets_values": [],
+      "widgets_values_named": {}
+    },
+    {
+      "id": 30,
+      "type": "PreviewAny",
+      "pos": [
+        760,
+        600
+      ],
+      "size": [
+        225,
+        180
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 67
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": "Stem 3 Filepath",
+      "properties": {
+        "Node name for S&R": "PreviewAny"
+      },
+      "widgets_values": [],
+      "widgets_values_named": {}
+    },
+    {
+      "id": 33,
+      "type": "PreviewAny",
+      "pos": [
+        760,
+        820
+      ],
+      "size": [
+        225,
+        180
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 68
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": "Stem 4 Filepath",
+      "properties": {
+        "Node name for S&R": "PreviewAny"
+      },
+      "widgets_values": [],
+      "widgets_values_named": {}
+    },
+    {
+      "id": 34,
+      "type": "PreviewAny",
+      "pos": [
+        1040,
+        160
+      ],
+      "size": [
+        225,
+        180
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 69
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": "Stem 5 Filepath",
+      "properties": {
+        "Node name for S&R": "PreviewAny"
+      },
+      "widgets_values": [],
+      "widgets_values_named": {}
+    },
+    {
+      "id": 35,
+      "type": "PreviewAny",
+      "pos": [
+        1040,
+        390
+      ],
+      "size": [
+        225,
+        180
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 70
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": "Stem 6 Filepath",
+      "properties": {
+        "Node name for S&R": "PreviewAny"
+      },
+      "widgets_values": [],
+      "widgets_values_named": {}
+    },
+    {
+      "id": 36,
+      "type": "PreviewAny",
+      "pos": [
+        1040,
+        610
+      ],
+      "size": [
+        225,
+        180
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 71
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": "Stem 7 Filepath",
+      "properties": {
+        "Node name for S&R": "PreviewAny"
+      },
+      "widgets_values": [],
+      "widgets_values_named": {}
+    },
+    {
+      "id": 37,
+      "type": "PreviewAny",
+      "pos": [
+        1040,
+        830
+      ],
+      "size": [
+        225,
+        180
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 72
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": "Stem 8 Fielpath",
+      "properties": {
+        "Node name for S&R": "PreviewAny"
+      },
+      "widgets_values": [],
+      "widgets_values_named": {}
+    },
+    {
+      "id": 45,
+      "type": "AudioSeparation",
+      "pos": [
+        313.1250889786301,
+        165.8149551290109
+      ],
+      "size": [
+        383.0625,
+        625
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STDOUT",
+          "type": "STRING",
+          "links": [
+            64
+          ]
+        },
+        {
+          "name": "output_stempath_1",
+          "type": "STRING",
+          "links": [
+            65
+          ]
+        },
+        {
+          "name": "output_stempath_2",
+          "type": "STRING",
+          "links": [
+            66
+          ]
+        },
+        {
+          "name": "output_stempath_3",
+          "type": "STRING",
+          "links": [
+            67
+          ]
+        },
+        {
+          "name": "output_stempath_4",
+          "type": "STRING",
+          "links": [
+            68
+          ]
+        },
+        {
+          "name": "output_stempath_5",
+          "type": "STRING",
+          "links": [
+            69
+          ]
+        },
+        {
+          "name": "output_stempath_6",
+          "type": "STRING",
+          "links": [
+            70
+          ]
+        },
+        {
+          "name": "output_stempath_7",
+          "type": "STRING",
+          "links": [
+            71
+          ]
+        },
+        {
+          "name": "output_stempath_8",
+          "type": "STRING",
+          "links": [
+            72
+          ]
+        }
+      ],
+      "title": "Audio Separator CLI (Drumsep 6 Stem)",
+      "properties": {
+        "Node name for S&R": "AudioSeparation"
+      },
+      "widgets_values": [
+        "/tmp/example.wav",
+        "/tmp/",
+        "MDX23C-DrumSep-aufr33-jarredou.ckpt",
+        "",
+        "",
+        "",
+        null,
+        "",
+        null
+      ],
+      "widgets_values_named": {
+        "input_files": "/tmp/example.wav",
+        "output_dir": "/tmp/",
+        "model_filename": "MDX23C-DrumSep-aufr33-jarredou.ckpt",
+        "command_options": "",
+        "Show Command Help": "",
+        "List Loaded Models": "",
+        "List Model Stems": null,
+        "Remove Models": "",
+        "STOP PROCESS": null
+      }
+    },
+    {
+      "id": 46,
+      "type": "MarkdownNote",
+      "pos": [
+        318.15012448298927,
+        843.1534248261881
+      ],
+      "size": [
+        383.4375,
+        155.3125
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Workflow Notes",
+      "properties": {},
+      "widgets_values": [
+        "Example to show 6 stem output file paths and console output."
+      ],
+      "widgets_values_named": {
+        "text": "Example to show 6 stem output file paths and console output."
+      },
+      "color": "#322",
+      "bgcolor": "#533"
+    }
+  ],
+  "links": [
+    [
+      64,
+      45,
+      0,
+      28,
+      0,
+      "STRING"
+    ],
+    [
+      65,
+      45,
+      1,
+      27,
+      0,
+      "STRING"
+    ],
+    [
+      66,
+      45,
+      2,
+      29,
+      0,
+      "STRING"
+    ],
+    [
+      67,
+      45,
+      3,
+      30,
+      0,
+      "STRING"
+    ],
+    [
+      68,
+      45,
+      4,
+      33,
+      0,
+      "STRING"
+    ],
+    [
+      69,
+      45,
+      5,
+      34,
+      0,
+      "STRING"
+    ],
+    [
+      70,
+      45,
+      6,
+      35,
+      0,
+      "STRING"
+    ],
+    [
+      71,
+      45,
+      7,
+      36,
+      0,
+      "STRING"
+    ],
+    [
+      72,
+      45,
+      8,
+      37,
+      0,
+      "STRING"
+    ]
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "title": "Stem Output Filepaths",
+      "bounding": [
+        750,
+        90,
+        525,
+        930
+      ],
+      "color": "#3f789e",
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.8264462809917354,
+      "offset": [
+        -89.26722535352083,
+        61.145300087658896
+      ]
+    },
+    "frontendVersion": "1.51.9"
+  },
+  "version": 0.4
+}

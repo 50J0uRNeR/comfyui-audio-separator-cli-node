@@ -1,0 +1,9 @@
+# GPU install for audio-separator (ONNX stems accelerated on CUDA). Use INSTEAD OF requirements.txt,
+# not in addition to it — installing both leaves two ONNX runtimes, which can make the CUDA provider
+# fail to load (see audio-separator's troubleshooting notes).
+#   [gpu] pulls onnxruntime-gpu; listed explicitly below so the GPU intent is visible at a glance.
+# audioread: optional audio-decode fallback some input formats need.
+# beartype: same <0.19.0 pin caveat as requirements.txt — you may need `pip install --upgrade beartype` after.
+audio-separator[gpu]>=0.47
+onnxruntime-gpu>=1.17
+audioread>=3.0

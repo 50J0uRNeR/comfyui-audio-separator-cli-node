@@ -1,0 +1,13 @@
+[project]
+name = "audio-separator-cli-node"
+version = "0.1.0"
+description = "Wraps around audio-separator command-line tool to generate stems with full control of parameters and ports."
+readme = "README.md"
+license = { file = "LICENSE" }
+
+[project.urls]
+Repository = "https://github.com/Acly/comfyui-tooling-nodes"
+
+[tool.comfy]
+PublisherId = "" # TODO (fill in Publisher ID from Comfy Registry Website).
+DisplayName = "" # Display name for the Custom Node. Can be changed later.

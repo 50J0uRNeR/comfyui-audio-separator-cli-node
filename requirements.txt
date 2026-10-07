@@ -1,0 +1,9 @@
+# audio-separator CLI — heavy ML dependency (pulls PyTorch + ~28 other packages).
+# [cpu] adds a CPU ONNX runtime so ALL models work on any machine without CUDA.
+#   GPU acceleration for ONNX stems is opt-in: use requirements-gpu.txt / `install.py --gpu`.
+#   (PyTorch-based stems already use your existing CUDA torch, so [cpu] does not block GPU.)
+# audioread: optional audio-decode fallback some input formats need.
+# beartype: audio-separator pins <0.19.0; if other packages need a newer one you may have to
+#   `pip install --upgrade beartype` afterwards (pip warns about the conflict, but it works).
+audio-separator[cpu]>=0.47
+audioread>=3.0
