@@ -6,7 +6,7 @@ readme = "README.md"
 license = { file = "LICENSE" }
 
 [project.urls]
-Repository = "https://github.com/Acly/comfyui-tooling-nodes"
+Repository = "https://github.com/50J0uRNeR/comfyui-audio-separator-cli-node.git"
 
 [tool.comfy]
 PublisherId = "sojourner"
