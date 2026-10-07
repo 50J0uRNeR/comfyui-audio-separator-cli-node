@@ -9,5 +9,5 @@ license = { file = "LICENSE" }
 Repository = "https://github.com/Acly/comfyui-tooling-nodes"
 
 [tool.comfy]
-PublisherId = "" # TODO (fill in Publisher ID from Comfy Registry Website).
-DisplayName = "" # Display name for the Custom Node. Can be changed later.
+PublisherId = "sojourner"
+DisplayName = "audio-separator-cli-node"
